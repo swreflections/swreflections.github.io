@@ -17,15 +17,17 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
+            var contactData = {
+                name: name,
+                phone: phone,
+                email: email,
+                message: message
+            };
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "https://swreflectionsuk-contact.azurewebsites.net/api/ContactHttpTrigger",
+                contentType: "application/json; charset=utf-8",
                 type: "POST",
-                data: {
-                    name: name,
-                    phone: phone,
-                    email: email,
-                    message: message
-                },
+                data: JSON.stringify(contactData),
                 cache: false,
                 success: function() {
                     // Success message
@@ -40,7 +42,8 @@ $(function() {
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
-                error: function() {
+                error: function(xhr, status, err) {
+                    // console.log('[RM] Submit failed:', xhr, status, err);
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
