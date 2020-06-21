@@ -9,9 +9,9 @@ description: "Bespoke software development and consultancy."
 
 # Team names, titles and social links
 # people:
-# - name: Kay Garland
+# - name: Rui Mourato
 #   pic: 1
-#   position: Lead Designer
+#   position: Full-Stack Engineer
 #   social:
 #     - title: twitter
 #       url: #
@@ -20,9 +20,9 @@ description: "Bespoke software development and consultancy."
 #     - title: stack-overflow
 #       url: #
 
-# - name: Larry Parker
+# - name: John Doe
 #   pic: 2
-#   position: Lead Marketer
+#   position: Dev
 #   social:
 #     - title: twitter
 #       url: #
@@ -31,27 +31,12 @@ description: "Bespoke software development and consultancy."
 #     - title: linkedin
 #       url: #
 
-# - name: Diana Petersen
-#   pic: 3
-#   position: Lead Developer
-#   social:
-#     - title: twitter
-#       url: #
-#     - title: facebook
-#       url: #
-#     - title: google-plus
-#       url: #
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks usernames
 # social:
 #   - title: twitter
 #     url: http://twitter.com/jekyllrb
-#   - title: facebook
-#     url:
 #   - title: stack-overflow
 #     url: http://stackoverflow.com/questions/tagged/jekyll
-#   - title: bitbucket 
-#     url: http://bitbucket.org/jekyll
 #   - title: github
 #     url: http://github.com/jekyll
 
