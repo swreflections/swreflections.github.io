@@ -4,46 +4,33 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     
-    <!-- Favicon -->
     <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon" />
     
-    <!-- Map CSS -->
-    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" />
-    
-    <!-- Libs CSS -->
     <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
     
-    <!-- Theme CSS -->
     <link rel="stylesheet" href="./assets/css/theme.bundle.css" />
     
-    <!-- Title -->
     <title>Services - Software Reflections Ltd</title>
   </head>
   <body>
 
-    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container">
     
-        <!-- Brand -->
         <a class="navbar-brand" href="./index.html">
-          <img src="./assets/img/brand.svg" class="navbar-brand-img" alt="...">
+          <img src="./assets/img/brand.svg" class="navbar-brand-img">
         </a>
     
-        <!-- Toggler -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
     
-        <!-- Collapse -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
     
-          <!-- Toggler -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fe fe-x"></i>
           </button>
     
-          <!-- Navigation -->
           <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" id="navbarServices" href="./services.html" aria-haspopup="true" aria-expanded="false">
@@ -51,48 +38,52 @@
               </a>
               <div class="dropdown-menu dropdown-menu-lg" aria-labelledby="navbarServices">
                 <div class="row gx-0">
-                  <div class="col-12">
+                  <div class="col-6">
                     <div class="row gx-0">
-                      <div class="col-12 col-lg-6">
+                      <div class="col-12">
                         <h6 class="dropdown-header">
                           Development
                         </h6>
-                        <a class="dropdown-item" href="./services.html#development">
+                        <a class="dropdown-item" href="./services.html#development_web">
                           Web
                         </a>
-                        <a class="dropdown-item" href="./services.html#development">
+                        <a class="dropdown-item" href="./services.html#development_cloud">
                           Cloud
                         </a>
-                        <a class="dropdown-item" href="./services.html#development">
+                        <a class="dropdown-item" href="./services.html#development_migrations">
                           Migrations
                         </a>
-                        <a class="dropdown-item" href="./services.html#development">
+                        <a class="dropdown-item" href="./services.html#development_desktop">
                           Desktop
                         </a>
-                        <a class="dropdown-item" href="./services.html#development">
+                        <a class="dropdown-item" href="./services.html#development_identity">
                           Identity
                         </a>
-                        <a class="dropdown-item" href="./services.html#development">
+                        <a class="dropdown-item" href="./services.html#development_automation">
                           Automation
                         </a>
                       </div>
-                      <div class="col-12 col-lg-6">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="row gx-0">
+                      <div class="col-12">
                         <h6 class="dropdown-header">
                           Consultancy
                         </h6>
-                        <a class="dropdown-item" href="./services.html#consultancy">
+                        <a class="dropdown-item" href="./services.html#consultancy_architecture">
                           Architecture
                         </a>
-                        <a class="dropdown-item" href="./services.html#consultancy">
+                        <a class="dropdown-item" href="./services.html#consultancy_code_reviews">
                           Code Reviews
                         </a>
-                        <a class="dropdown-item" href="./services.html#consultancy">
+                        <a class="dropdown-item" href="./services.html#consultancy_cicd">
                           CI/CD
                         </a>
-                        <a class="dropdown-item" href="./services.html#consultancy">
+                        <a class="dropdown-item" href="./services.html#consultancy_appsec">
                           Security
                         </a>
-                        <a class="dropdown-item" href="./services.html#consultancy">
+                        <a class="dropdown-item" href="./services.html#consultancy_tuning">
                           Perf. Tuning
                         </a>
                       </div>
@@ -102,87 +93,22 @@
               </div>
             </li>
     
+            <li class="nav-item">
+              <a class="nav-link" id="navbarAbout" href="./clients.html">
+                Clients
+              </a>
+            </li>
     
+            <li class="nav-item">
+              <a class="nav-link" id="navbarAbout" href="./about.html">
+                About Us
+              </a>
+            </li>
     
             <li class="nav-item">
               <a class="nav-link" id="navbarContact" href="./contact.html">
                 Contact
               </a>
-              <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarContact">
-                <div class="list-group list-group-flush">
-                  <a class="list-group-item" href="./docs/index.html">
-    
-                    <!-- Icon -->
-                    <div class="icon icon-sm text-primary">
-                      <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M8 3v.5A1.5 1.5 0 009.5 5h5A1.5 1.5 0 0016 3.5V3h2a2 2 0 012 2v16a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2h2z" fill="#335EEA" opacity=".3"/><path d="M11 2a1 1 0 012 0h1.5a.5.5 0 01.5.5v1a.5.5 0 01-.5.5h-5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11z" fill="#335EEA"/><rect fill="#335EEA" opacity=".3" x="7" y="10" width="5" height="2" rx="1"/><rect fill="#335EEA" opacity=".3" x="7" y="14" width="9" height="2" rx="1"/></g></svg>                </div>
-    
-                    <!-- Content -->
-                    <div class="ml-4">
-    
-                      <!-- Heading -->
-                      <h6 class="font-weight-bold text-uppercase text-primary mb-0">
-                        Documentation
-                      </h6>
-    
-                      <!-- Text -->
-                      <p class="font-size-sm text-gray-700 mb-0">
-                        Customizing and building
-                      </p>
-    
-                    </div>
-    
-                  </a>
-                  <a class="list-group-item" href="./docs/alerts.html">
-    
-                    <!-- Icon -->
-                    <div class="icon icon-sm text-primary">
-                      <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><rect fill="#335EEA" x="4" y="4" width="7" height="7" rx="1.5"/><path d="M5.5 13h4a1.5 1.5 0 011.5 1.5v4A1.5 1.5 0 019.5 20h-4A1.5 1.5 0 014 18.5v-4A1.5 1.5 0 015.5 13zm9-9h4A1.5 1.5 0 0120 5.5v4a1.5 1.5 0 01-1.5 1.5h-4A1.5 1.5 0 0113 9.5v-4A1.5 1.5 0 0114.5 4zm0 9h4a1.5 1.5 0 011.5 1.5v4a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-4a1.5 1.5 0 011.5-1.5z" fill="#335EEA" opacity=".3"/></g></svg>                </div>
-    
-                    <!-- Content -->
-                    <div class="ml-4">
-    
-                      <!-- Heading -->
-                      <h6 class="font-weight-bold text-uppercase text-primary mb-0">
-                        Components
-                      </h6>
-    
-                      <!-- Text -->
-                      <p class="font-size-sm text-gray-700 mb-0">
-                        Full list of components
-                      </p>
-    
-                    </div>
-    
-                  </a>
-                  <a class="list-group-item" href="./docs/changelog.html">
-    
-                    <!-- Icon -->
-                    <div class="icon icon-sm text-primary">
-                      <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M5.857 2h7.88a1.5 1.5 0 01.968.355l4.764 4.029A1.5 1.5 0 0120 7.529v12.554c0 1.79-.02 1.917-1.857 1.917H5.857C4.02 22 4 21.874 4 20.083V3.917C4 2.127 4.02 2 5.857 2z" fill="#335EEA" opacity=".3"/><rect fill="#335EEA" x="6" y="11" width="9" height="2" rx="1"/><rect fill="#335EEA" x="6" y="15" width="5" height="2" rx="1"/></g></svg>                </div>
-    
-                    <!-- Content -->
-                    <div class="ml-4">
-    
-                      <!-- Heading -->
-                      <h6 class="font-weight-bold text-uppercase text-primary mb-0">
-                        Changelog
-                      </h6>
-    
-                      <!-- Text -->
-                      <p class="font-size-sm text-gray-700 mb-0">
-                        Keep track of changes
-                      </p>
-    
-                    </div>
-    
-                    <!-- Badge -->
-                    <span class="badge rounded-pill bg-primary-soft ml-auto">
-                      2.0.0-alpha
-                    </span>
-    
-                  </a>
-                </div>
-              </div>
             </li>
           </ul>
         </div>
@@ -190,51 +116,33 @@
       </div>
     </nav>
 
-    <!-- WELCOME -->
-    <section class="py-10 py-md-14 bg-primary" id="welcome">
-
-      <!-- Shape -->
-      <div class="shape shape-blur-3 svg-shim text-white">
-        <svg viewBox="0 0 1738 487" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h1420.92s713.43 457.505 0 485.868C707.502 514.231 0 0 0 0z" fill="url(#paint0_linear)"/><defs><linearGradient id="paint0_linear" x1="0" y1="0" x2="1049.98" y2="912.68" gradientUnits="userSpaceOnUse"><stop stop-color="currentColor" stop-opacity=".075"/><stop offset="1" stop-color="currentColor" stop-opacity="0"/></linearGradient></defs></svg>      </div>
-
-      <!-- Content -->
+    <section class="py-10 py-md-14 overlay overlay-black overlay-60 bg-cover" style="background-image: url(assets/img/undraw/solution_mindset.svg);">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-10 col-lg-8 text-center">
-
-            <!-- Heading -->
             <h1 class="display-2 font-weight-bold text-white">
               Our Services.
             </h1>
-
-            <!-- Text -->
             <p class="lead text-white mb-8">
               Comprehensive solutions for all of your business problems.
             </p>
-
           </div>
         </div> <!-- / .row -->
       </div> <!-- / .container -->
-
     </section>
 
-    <!-- SHAPE -->
     <div class="position-relative">
       <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
         <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>      </div>
     </div>
 
-    <!-- DEV -->
     <section id="development" class="pt-8 pt-md-10">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
-
-            <!-- Button -->
             <a href="#development" class="btn btn-white btn-rounded-circle shadow mt-n12 mt-md-n14" data-scroll>
               <i class="fe fe-arrow-down"></i>
             </a>
-
           </div>
         </div> <!-- / .row -->
 
@@ -252,7 +160,7 @@
         <div class="row">
           <div class="col-12 col-lg-6">
 
-            <div class="row align-items-center mb-8" data-aos="fade-up">
+            <div id="development_web" class="row align-items-center mb-8">
               <div class="col-4 col-lg-5">
                 <img src="assets/img/undraw/tabs.svg" class="img-fluid">
               </div>
@@ -266,7 +174,7 @@
               </div>
             </div> <!-- / .row -->
 
-            <div class="row align-items-center mb-8" data-aos="fade-up">
+            <div id="development_cloud" class="row align-items-center mb-8">
               <div class="col-4 col-lg-5">
                 <img src="assets/img/undraw/server_status.svg" class="img-fluid">
               </div>
@@ -280,7 +188,7 @@
               </div>
             </div> <!-- / .row -->
 
-            <div class="row align-items-center mb-8" data-aos="fade-up">
+            <div id="development_migrations" class="row align-items-center mb-8">
               <div class="col-4 col-lg-5">
                 <img src="assets/img/undraw/upgrade.svg" class="img-fluid">
               </div>
@@ -296,7 +204,7 @@
           </div>
 
           <div class="col-12 col-lg-6">
-            <div class="row align-items-center mb-8" data-aos="fade-up">
+            <div id="development_desktop" class="row align-items-center mb-8">
               <div class="col-4 col-lg-5">
                 <img src="assets/img/undraw/responsive.svg" class="img-fluid">
               </div>
@@ -310,9 +218,9 @@
               </div>
             </div> <!-- / .row -->
 
-            <div class="row align-items-center mb-8" data-aos="fade-up">
+            <div id="development_identity"  class="row align-items-center mb-8">
               <div class="col-4 col-lg-5">
-                <img src="assets/img/undraw/2fa.svg" alt="..." class="img-fluid">
+                <img src="assets/img/undraw/2fa.svg" class="img-fluid">
               </div>
               <div class="col-8 col-lg-7">
                 <h3 class="font-weight-bold mb-2">
@@ -324,7 +232,7 @@
               </div>
             </div> <!-- / .row -->
 
-            <div class="row align-items-center mb-8" data-aos="fade-up">
+            <div id="development_automation" class="row align-items-center mb-8">
               <div class="col-4 col-lg-5">
                 <img src="assets/img/undraw/in_progress.svg" class="img-fluid">
               </div>
@@ -343,7 +251,6 @@
       </div> <!-- / .container -->
     </section>
 
-    <!-- Technologies -->
     <section class="pt-8 pt-md-11 mb-10">
       <div class="container">
         <div class="row justify-content-center">
@@ -358,7 +265,7 @@
         </div> <!-- / .row -->
 
         <div class="row">
-          <div class="col-12 col-md-6 col-lg-4 text-center" data-aos="fade-up">
+          <div class="col-12 col-md-6 col-lg-4 text-center">
             <div class="icon icon-lg mb-4">
               <svg width="456" height="456" viewBox="0 0 456 456" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="456" height="456" fill="#512BD4"/>
@@ -376,7 +283,7 @@
             </p>
           </div>
 
-          <div class="col-12 col-md-6 col-lg-4 text-center" data-aos="fade-up">
+          <div class="col-12 col-md-6 col-lg-4 text-center">
             <div class="icon icon-lg mb-4">
               <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M14.62 55H64L37.4 8.91l-8.1 22.25 15.56 18.5L14.62 55zM35.28 4.84l-19 15.95L0 48.98h14.68l20.6-44.14z" fill="#0072c6"/></svg>            </div>
             <h3 class="font-weight-bold">
@@ -387,7 +294,7 @@
             </p>
           </div>
 
-          <div class="col-12 col-md-6 col-lg-4 text-center" data-aos="fade-up">
+          <div class="col-12 col-md-6 col-lg-4 text-center">
             <div class="icon icon-lg mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 32 32"><defs><clipPath id="A"><path d="M76 2v46H54v23H35.58l-.206 2c-1.15 12.53 1.036 24.088 6.063 33.97l1.688 3.03c1 1.817 2.2 3.523 3.438 5.188s1.686 2.583 2.47 3.688C62.32 133.8 82.13 141 105 141c50.648 0 93.633-22.438 112.656-72.844C231.153 69.54 244.1 66.08 250 54.563c-9.4-5.424-21.478-3.685-28.437-.187L240 2l-72 46h-23V2z"/></clipPath></defs><g transform="matrix(.679423 0 0 .679423 -2.086149 13.781817)"><path d="M30.305-3.553h4.222V.763h2.135a9.26 9.26 0 0 0 2.934-.492c.46-.156.974-.372 1.426-.644-.596-.778-.9-1.76-1-2.73-.122-1.317.144-3.032 1.036-4.063l.444-.513.53.425c1.332 1.07 2.452 2.565 2.65 4.27 1.603-.472 3.486-.36 4.9.456l.58.335-.305.596c-1.187 2.33-3.687 3.053-6.13 2.925-3.656 9.105-11.615 13.416-21.265 13.416-4.986 0-9.56-1.864-12.164-6.287-.153-.275-.283-.562-.422-.844-.88-1.947-1.173-4.08-.975-6.2l.06-.638h3.6V-3.55h4.222v-4.222h8.445v-4.222h5.067v8.445" fill="#394d54"/><g transform="matrix(.184659 0 0 .184659 3.070472 -11.997864)" clip-path="url(#A)"><g id="B"><g id="C" transform="translate(0 -22.866)"><path d="M123.86 3.8h19.818v19.817H123.86z" fill="#00acd3"/><path d="M123.86 26.676h19.818v19.818H123.86z" fill="#20c2ef"/><path id="D" d="M126.292 21.977V5.46m2.972 16.516V5.46m3.002 16.516V5.46m3.003 16.516V5.46m3.003 16.516V5.46m2.97 16.516V5.46" stroke="#394d54" stroke-width="1.56"/><use xlink:href="#D" y="22.866"/></g><use xlink:href="#C" transform="matrix(1 0 0 -1 22.866 4.572651)"/></g><use xlink:href="#B" x="-91.464" y="45.732"/><use xlink:href="#B" x="-45.732" y="45.732"/><use xlink:href="#B" y="45.732"/><path d="M221.57 54.38c1.533-11.915-7.384-21.275-12.914-25.718-6.373 7.368-7.363 26.678 2.635 34.807-5.58 4.956-17.337 9.448-29.376 9.448H34C32.83 85.484 34 146 34 146h217l-.987-91.424c-9.4-5.424-21.484-3.694-28.443-.197" fill="#17b5eb"/><path d="M34 89v57h217V89" fill-opacity=".17"/><path d="M111.237 140.9c-13.54-6.425-20.972-15.16-25.107-24.694L45 118l21 28 45.237-5.1" fill="#d4edf1"/><path d="M222.5 53.938v.03c-20.86 26.9-50.783 50.38-82.906 62.72-28.655 11.008-53.638 11.06-70.875 2.22-1.856-1.048-3.676-2.212-5.5-3.312-12.637-8.832-19.754-23.44-19.156-42.687H34V146h217V50h-25z" fill-opacity=".085"/></g><path d="M11.496 9.613c2.616.143 5.407.17 7.842-.594" fill="none" stroke="#394d54" stroke-width=".628" stroke-linecap="round"/><path d="M21.937 7.753a1.01 1.01 0 0 1-1.009 1.009 1.01 1.01 0 0 1-1.01-1.009 1.01 1.01 0 0 1 1.01-1.01 1.01 1.01 0 0 1 1.009 1.01z" fill="#d4edf1"/><path d="M21.2 7.08c-.088.05-.148.146-.148.256 0 .163.132.295.295.295.112 0 .2-.062.26-.154a.73.73 0 0 1 .055.277c0 .4-.324.723-.723.723s-.723-.324-.723-.723.324-.723.723-.723a.72.72 0 0 1 .262.049zM3.07 4.65h46.964c-1.023-.26-3.235-.6-2.87-1.95-1.86 2.152-6.344 1.5-7.475.448-1.26 1.828-8.597 1.133-9.108-.3-1.58 1.854-6.475 1.854-8.055 0-.512 1.424-7.848 2.12-9.1.3C12.284 4.2 7.8 4.853 5.94 2.7c.365 1.34-1.848 1.7-2.87 1.95" fill="#394d54"/></g></svg>            </div>
             <h3 class="font-weight-bold">
@@ -398,7 +305,7 @@
             </p>
           </div>
 
-          <div class="col-12 col-md-6 col-lg-4 text-center" data-aos="fade-up">
+          <div class="col-12 col-md-6 col-lg-4 text-center">
             <div class="icon icon-lg mb-4">
               <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;" xml:space="preserve">
               <style type="text/css">
@@ -420,7 +327,7 @@
             </p>
           </div>
 
-          <div class="col-12 col-md-6 col-lg-4 text-center" data-aos="fade-up">
+          <div class="col-12 col-md-6 col-lg-4 text-center">
             <div class="icon icon-lg mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="247" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 247" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"><defs><radialGradient cx="78.764%" cy="37.848%" fx="78.764%" fy="37.848%" r="89.873%" id="IconifyId-1757908809a-1ab88c-22335"><stop stop-color="#F80090" offset="0%"/><stop stop-color="#4D008E" offset="100%"/></radialGradient><radialGradient cx="68.739%" cy="4.398%" fx="68.739%" fy="4.398%" r="81.728%" id="IconifyId-1757908809a-1ab88c-22336"><stop stop-color="#57008E" offset="0%"/><stop stop-color="#5C008E" offset="29.175%"/><stop stop-color="#F80090" offset="100%"/></radialGradient><linearGradient x1="18.239%" y1="0%" x2="81.159%" y2="84.337%" id="IconifyId-1757908809a-1ab88c-22337"><stop stop-color="#F70090" offset="0%"/><stop stop-color="#E50090" offset="66.971%"/><stop stop-color="#D6008F" stop-opacity=".2" offset="82.715%"/><stop stop-color="#C10090" stop-opacity="0" offset="100%"/></linearGradient><linearGradient x1="64.906%" y1="71.559%" x2="44.29%" y2="50%" id="IconifyId-1757908809a-1ab88c-22338"><stop stop-color="#B2008F" stop-opacity=".151" offset="0%"/><stop stop-color="#F70090" stop-opacity=".4" offset="40.035%"/><stop stop-color="#F60090" stop-opacity=".892" offset="64.9%"/><stop stop-color="#FF0090" offset="100%"/></linearGradient></defs><path d="M16.685 157.125C3.567 87.38 38.236 20.115 117.81 11.166C106.836-.559 91.845-.647 84.949.78C72.77 4.66 73.152 12.541 59.338 22.72c-13.733 7.843-20.63 1.837-30.633 9.968c-9.983 8.07-3.017 26.597-7.204 30.2c-4.156 7.203-17.047 13.62-19.394 22.718c-1.94 11.636 5.264 19.948 4.987 29.922c.832 8.311-8.274 13.011-6.966 19.748c3.919 11.005 11.472 17.629 15.033 20.682c.816.576 1.678 1.993 1.523 1.167z" fill="#FF0090"/><path d="M158.275 60.579a5.264 5.264 0 1 1 .001-10.53a5.264 5.264 0 0 1 0 10.53zM19.757 164.733C7.15 104.117 46.16 53.468 121.704 78.403c44.327 25.932 100.09 24.243 102.603 7.48c6.207-20.095-28.26-61.506-79.792-72.311C42.281-6.377-12.834 104.117 19.757 164.732z" fill="url(#IconifyId-1757908809a-1ab88c-22335)"/><path d="M187.459 171.493c15.18 1.645 29.59-1.998 42.943-12.883c-20.174 22.503-45.4 33.817-74.343 36.895c13.82 11.749 27.147 17.041 39.896 14.776c-35.426 9.776-65.107-.984-101.213-36.94c-1.89 9.679 8.333 24.76 18.87 34.386c-61.138-26.505-66.498-109.073 8.053-129.383c-77.28-37.13-120.979 35.014-99.51 94.142c21.007 45.54 76.985 80.6 138.337 72.89c29.8-3.65 74.302-24.197 92.482-72.89c-12.813 11.498-35.716 21.512-45.936 22.28c34.59-17.287 53.264-46.662 48.022-86.81c-7.165 17.058-16.619 30.159-28.444 39.156c25.12-39.157 20.81-59.396 2.217-81.639c13.298 36.572-3.905 77.161-41.374 106.02z" fill="url(#IconifyId-1757908809a-1ab88c-22336)"/><path d="M169.707 213.626c-2.625-.49 5.95 3.473-10.628-.916c-16.577-4.388-33.456-8.617-64.337-39.37c-1.89 9.68 8.333 24.76 18.87 34.387c28.444 19.838 9.1 10.56 52.44 25.542c3.478-6.922 3.655-13.074 3.655-19.643z" fill="url(#IconifyId-1757908809a-1ab88c-22337)"/><path d="M114.601 57.851s3.768-5.562 5.235-8.07c1.798-3.074 4.558-8.676 4.558-8.676S95.39 31.642 88.272 30.487c-22.127 5.744-22.207 15.014-9.837 29.203c1.376 1.58 36.166-1.839 36.166-1.839z" fill="url(#IconifyId-1757908809a-1ab88c-22338)"/><rect x="0" y="0" width="256" height="247" fill="rgba(0, 0, 0, 0)" /></svg>            </div>
             <h3 class="font-weight-bold">
@@ -431,7 +338,7 @@
             </p>
           </div>
 
-          <div class="col-12 col-md-6 col-lg-4 text-center" data-aos="fade-up">
+          <div class="col-12 col-md-6 col-lg-4 text-center">
             <div class="icon icon-lg mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 272.96 114.01">
                <path fill="#413000" d="m163.59,38.806c-5.985,0-10.442,2.9389-10.442,10.012,0,5.3291,2.9375,9.0284,10.12,9.0284,6.0875,0,10.222-3.5869,10.222-9.2485,0-6.416-3.7-9.7915-9.9-9.7915zm-11.97,49.94c-1.4162,1.7382-2.8275,3.585-2.8275,5.7646,0,4.3482,5.545,5.6568,13.162,5.6568,6.31,0,14.905-0.44188,14.905-6.3085,0-3.4869-4.135-3.7028-9.36-4.0304l-15.88-1.0825zm32.201-49.611c1.955,2.5029,4.025,5.9848,4.025,10.989,0,12.075-9.465,19.146-23.169,19.146-3.485,0-6.64-0.43412-8.5962-0.97712l-3.5912,5.7648,10.66,0.65125c18.822,1.1992,29.915,1.7442,29.915,16.208,0,12.514-10.985,19.581-29.915,19.581-19.69,0-27.196-5.0049-27.196-13.598,0-4.8975,2.1762-7.5025,5.9838-11.098-3.5912-1.518-4.7862-4.2362-4.7862-7.1748,0-2.395,1.195-4.5702,3.1562-6.6386,1.9575-2.065,4.1325-4.1348,6.7438-6.5274-5.33-2.6104-9.3562-8.2676-9.3562-16.319,0-12.509,8.2688-21.1,24.91-21.1,4.6788,0,7.5088,0.43062,10.011,1.0874h21.215v9.2446l-10.01,0.76175"/>
@@ -448,7 +355,7 @@
             </p>
           </div>
 
-          <div class="col-12 col-md-6 col-lg-4 text-center" data-aos="fade-up">
+          <div class="col-12 col-md-6 col-lg-4 text-center">
             <div class="icon icon-lg mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"><path d="M4.724 2.505s-.08.127-.004.315c.046.116.186.256.34.404c0 0 1.615 1.576 1.813 1.804c.895 1.033 1.284 2.05 1.32 3.453c.022.9-.151 1.692-.573 2.613c-.756 1.649-2.35 3.468-4.81 5.49l.36-.12c.233-.173.548-.359 1.292-.766c1.713-.936 3.636-1.798 5.999-2.686c3.399-1.277 8.99-2.776 12.172-3.263l.331-.051l-.05-.08c-.292-.452-.49-.731-.73-1.027c-.697-.863-1.542-1.567-2.577-2.146c-1.422-.797-3.267-1.416-5.6-1.88a67.93 67.93 0 0 0-2.191-.375a209.29 209.29 0 0 1-3.924-.64c-.425-.075-1.06-.181-1.481-.272a9.404 9.404 0 0 1-.961-.258c-.268-.105-.645-.207-.726-.515zm.936.909c.003-.002.063.017.137.042c.136.046.316.1.526.159c.146.04.307.084.479.127c.218.056.399.104.401.107c.024.027.391 1.198.516 1.647c.048.172.084.315.081.318a.789.789 0 0 1-.09-.14c-.424-.746-1.097-1.505-1.874-2.116a3.104 3.104 0 0 1-.176-.144zm1.79.494a1.28 1.28 0 0 1 .195.034c.619.136 1.725.35 2.435.47c.119.02.216.04.216.047a.348.348 0 0 1-.098.062c-.119.06-.602.349-.763.457a7.18 7.18 0 0 0-1.03.821a5.4 5.4 0 0 1-.197.192a.928.928 0 0 1-.041-.137a12.09 12.09 0 0 0-.65-1.779a1.801 1.801 0 0 1-.071-.165c0-.001 0-.002.004-.002zm3.147.598c.02.007.06.13.129.404a6.05 6.05 0 0 1 .153 1.977l-.012.038l-.187-.06a47.37 47.37 0 0 0-1.562-.46a6.625 6.625 0 0 1-.56-.17c0-.022.449-.471.642-.642c.369-.326 1.362-1.098 1.397-1.087zm.25.036c.011-.01 1.504.248 2.182.378c.506.097 1.237.25 1.281.269c.022.008-.054.05-.297.16c-.96.432-1.672.82-2.38 1.293c-.186.124-.341.226-.344.226c-.004 0-.006-.104-.006-.23c0-.69-.139-1.387-.391-1.976a.688.688 0 0 1-.045-.12zm3.86.764c.011.011-.038.306-.08.48c-.132.54-.482 1.344-.914 2.099a2.26 2.26 0 0 1-.152.246a1.499 1.499 0 0 1-.219-.115c-.422-.247-.9-.48-1.425-.697a4.588 4.588 0 0 1-.278-.12c-.024-.022 1.143-.795 1.762-1.166c.495-.297 1.292-.741 1.306-.727zm.276.043c.033 0 .695.18 1.037.283c.853.255 1.837.614 2.475.904l.265.12l-.187.043c-1.561.36-2.9.773-4.188 1.296c-.107.044-.2.08-.207.08a.911.911 0 0 1 .075-.185c.388-.823.638-1.687.703-2.42c.006-.067.018-.121.027-.121zm-6.58 1.512c.01-.01.514.108.789.185c.413.116 1.292.41 1.292.433c0 .004-.097.089-.215.188A27.21 27.21 0 0 0 8.786 9.01a5.27 5.27 0 0 1-.308.285c-.007 0-.01-.023-.006-.05c.083-.611.065-1.395-.05-2.193a1.29 1.29 0 0 1-.02-.19zm10.61.01c.007.008-.234.385-.384.6c-.22.314-.537.726-1.261 1.637l-.954 1.202a9.418 9.418 0 0 1-.269.333c-.003 0-.05-.066-.103-.146a7.584 7.584 0 0 0-1.47-1.625a9.59 9.59 0 0 0-.27-.218a.427.427 0 0 1-.074-.063c0-.01.617-.274 1.088-.466a37.02 37.02 0 0 1 2.778-.99c.442-.135.912-.27.919-.264zm.278.073a.93.93 0 0 1 .207.1a12.274 12.274 0 0 1 2.428 1.824c.194.19.667.683.66.687l-.363.029c-1.53.115-3.486.44-5.37.893c-.128.03-.238.056-.246.056c-.007 0 .133-.14.311-.312c1.107-1.063 1.611-1.734 2.205-2.934c.088-.178.163-.333.166-.342h.002zm-8.088.83c.051.01.523.23.879.408c.325.163.818.426.843.449c.003.003-.17.093-.386.201a24.58 24.58 0 0 0-1.878 1.037c-.175.107-.32.194-.325.194c-.015 0-.01-.013.088-.191a7.702 7.702 0 0 0 .738-2.002c.014-.062.03-.1.041-.097zm-.475.084c.01.01-.112.46-.19.7a9.092 9.092 0 0 1-.835 1.808l-.09.147l-.203-.197a2.671 2.671 0 0 0-.676-.5a1.009 1.009 0 0 1-.176-.102c0-.03.62-.593 1.098-.998c.343-.29 1.064-.867 1.072-.858zm2.888 1.188l.177.115c.407.264.888.619 1.255.924c.206.172.605.53.687.616l.044.047l-.294.082a53.8 53.8 0 0 0-4.45 1.424a5.78 5.78 0 0 1-.32.112c-.021 0-.042.019.333-.326c.96-.883 1.807-1.856 2.44-2.802zm-.759.19c.009.009-.492.71-.789 1.106c-.356.473-.99 1.265-1.426 1.78a8.769 8.769 0 0 1-.346.397c-.01.003-.015-.05-.016-.133c0-.44-.112-.91-.308-1.308c-.083-.168-.097-.208-.08-.224c.068-.062 1.127-.666 1.794-1.023c.459-.246 1.163-.604 1.171-.595zm-4.59 1.125a3.988 3.988 0 0 1 .812.518c.008.005-.087.083-.21.172c-.345.249-.87.644-1.173.886c-.32.255-.331.263-.295.207c.24-.367.36-.574.486-.84c.113-.236.224-.516.304-.76a.675.675 0 0 1 .077-.183zm1.223.96c.017-.003.04.028.139.175c.207.31.366.722.407 1.058l.008.073l-.497.192a46.73 46.73 0 0 0-2.266.94c-.155.072-.428.202-.607.292c-.179.09-.325.16-.325.156c0-.004.112-.089.25-.188c1.087-.79 2.025-1.654 2.732-2.519c.075-.092.144-.172.153-.178a.016.016 0 0 1 .006-.002zm-.564.14c.015.014-.401.484-.681.77a12.12 12.12 0 0 1-2.256 1.821c-.108.069-.206.13-.22.138c-.023.014.008-.022.386-.434c.238-.259.42-.474.628-.743a1.24 1.24 0 0 1 .362-.346c.537-.388 1.767-1.221 1.781-1.207zM9.925 0c-.08-.01-1.371.455-2.2.791c-1.123.457-1.996.894-2.534 1.272c-.2.14-.452.393-.488.49a.356.356 0 0 0-.021.123l.488.46l1.158.37L9.087 4l3.153.542l.032-.27l-.028-.005l-.415-.066l-.085-.148a27.702 27.702 0 0 1-1.177-2.325a12.264 12.264 0 0 1-.53-1.465C9.969.02 9.962.005 9.925 0zm-.061.186h.005c.003.003.017.105.032.225c.062.508.176 1 .354 1.53c.134.4.136.377-.024.332c-.37-.103-2.032-.388-3.234-.555a8.796 8.796 0 0 1-.357-.053c-.015-.015.867-.477 1.258-.66c.501-.232 1.867-.8 1.966-.819zM6.362 1.814l.141.048c.772.262 2.706.632 3.775.72c.12.01.222.021.225.024c.003.003-.1.058-.228.122c-.515.258-1.083.573-1.476.819c-.115.072-.22.13-.235.129a4.868 4.868 0 0 1-.17-.027l-.144-.023l-.365-.355c-.641-.62-1.141-1.1-1.335-1.28zm-.143.114l.511.638c.282.35.564.699.626.774c.063.075.111.138.108.14c-.014.011-.74-.13-1.125-.219a8.532 8.532 0 0 1-.803-.212l-.2-.064l.001-.049c.003-.245.312-.607.836-.976zm4.352.869c.015.001.032.032.077.131c.124.272.51 1.008.603 1.15c.03.047.08.05-.433-.033c-1.23-.198-1.629-.265-1.629-.273a.36.36 0 0 1 .083-.054a7.13 7.13 0 0 0 1.107-.767l.175-.147c.006-.005.012-.008.017-.007zm4.309 8.408l-4.808 1.568l-4.18 1.846l-1.17.31a31.969 31.969 0 0 1-1.928 1.682a7.46 7.46 0 0 0-.953.945c-.332.414-.592.854-.704 1.193c-.2.61-.103 1.228.285 1.798c.495.728 1.48 1.468 2.625 1.972c.585.256 1.57.588 2.31.774c1.233.312 3.614.65 4.926.7c.266.01.62.01.637-.002c.028-.019.233-.405.47-.89c.806-1.646 1.389-3.19 1.703-4.508c.19-.799.338-1.863.434-3.125a25.77 25.77 0 0 0 .016-1.934a13.564 13.564 0 0 0-.183-1.706a.435.435 0 0 1-.012-.15c.014-.01.059-.025.65-.197zm-1.1.645c.045 0 .16 1.114.191 1.82c.006.151.005.247-.004.247c-.028 0-.615-.345-1.032-.606a28.716 28.716 0 0 1-1.162-.772c-.035-.028-.031-.029.266-.131c.505-.174 1.704-.558 1.742-.558zm-2.448.803c.03 0 .115.047.315.172c.75.47 1.766 1.035 2.2 1.225c.136.06.151.036-.16.247c-.662.45-1.486.892-2.497 1.342a7.59 7.59 0 0 1-.331.142a.989.989 0 0 1 .043-.2c.245-.905.383-1.82.387-2.554c.002-.362.002-.364.037-.373h.006zm-.504.193c.021.022.006.834-.02 1.056a9.206 9.206 0 0 1-.418 1.837c-.014.017-.511-.468-.676-.66a4.918 4.918 0 0 1-.669-.973c-.082-.162-.214-.484-.202-.493c.056-.04 1.971-.78 1.985-.767zm-2.375.936c.004 0 .008.001.01.004a.881.881 0 0 1 .056.131a4.9 4.9 0 0 0 .602 1.08a6.247 6.247 0 0 0 1.017 1.06c.023.02.03.016-.562.24a48.53 48.53 0 0 1-2.294.8c-.327.106-.604.195-.615.2c-.033.011-.023-.009.073-.158c.427-.666 1.073-1.97 1.435-2.892c.062-.16.122-.32.133-.356c.015-.052.031-.07.08-.092a.149.149 0 0 1 .065-.017zm-.728.3c.01.009-.174.398-.356.751a28.978 28.978 0 0 1-1.253 2.185l-.182.288c-.018.027-.026.018-.082-.094a3.307 3.307 0 0 1-.28-.842a3.39 3.39 0 0 1 .02-1.083c.047-.227.045-.222.152-.276c.462-.237 1.966-.942 1.981-.929zm6.268.255v.154a20.106 20.106 0 0 1-.255 2.992a9.362 9.362 0 0 1-1.898-.782c-.354-.194-.865-.507-.85-.522c.003-.004.154-.083.334-.177c.714-.37 1.395-.77 1.988-1.166c.222-.148.555-.389.629-.454zM4.981 15.41c.015 0 .011.028-.012.161a4.137 4.137 0 0 0-.041.39c-.03.532.057.924.32 1.46c.074.15.132.274.129.276c-.027.023-2.43.726-3.186.933l-.435.12c-.027.008-.029.002-.02-.06c.083-.533.49-1.232 1.058-1.82c.378-.39.68-.622 1.195-.915a30.782 30.782 0 0 1 .992-.545zm5.669 1.015c.002-.002.091.045.197.107c.777.449 1.86.87 2.783 1.081l.084.02l-.115.063c-.482.268-2.071.929-3.694 1.537a68.82 68.82 0 0 0-.513.194a.314.314 0 0 1-.082.027c0-.004.067-.132.149-.286c.456-.852.91-1.887 1.144-2.605c.023-.073.044-.135.047-.138zm-.578.19a1.39 1.39 0 0 1-.063.169a23.534 23.534 0 0 1-1.261 2.54a9.009 9.009 0 0 1-.252.433c-.005 0-.114-.066-.244-.145c-.77-.472-1.452-1.052-1.9-1.617l-.064-.08l.332-.091a23.616 23.616 0 0 0 3.19-1.103c.142-.06.26-.109.262-.106zm3.59 1.253c.001 0 .002.001.002.003c0 .08-.183.828-.336 1.37c-.128.453-.236.808-.435 1.437a8.533 8.533 0 0 1-.168.504a15.004 15.004 0 0 1-3-.841a7.964 7.964 0 0 1-.639-.283c-.006-.007.213-.11.486-.23c1.655-.721 3.369-1.543 3.955-1.896a.432.432 0 0 1 .135-.064zm-8.287.283c.009.009-.454.671-1.1 1.576l-.587.823c-.097.139-.245.358-.329.488l-.153.236l-.162-.137a6.478 6.478 0 0 1-.677-.69c-.312-.389-.523-.798-.607-1.174c-.038-.174-.04-.262-.003-.273a176.26 176.26 0 0 1 1.934-.455l1.3-.305c.209-.05.382-.09.384-.089zm.465.178l.117.131a6.763 6.763 0 0 0 1.706 1.394a.974.974 0 0 1 .195.128a281.967 281.967 0 0 1-4.33 1.53a.858.858 0 0 1-.072-.048l-.067-.048l.105-.152c.34-.493.768-1.035 1.705-2.162zm2.9 2.073c.003-.003.165.054.362.128c.473.177.844.292 1.347.418c.617.155 1.51.31 2.038.354c.08.006.122.016.11.024c-.025.016-.56.194-.953.318a258.526 258.526 0 0 1-4.636 1.363c-.035.007-.157-.025-.157-.04c0-.009.087-.119.193-.246a22.027 22.027 0 0 0 1.476-1.984a56.9 56.9 0 0 1 .22-.335zm-.642.018c.005.005-.253.418-.706 1.132c-.192.301-.409.645-.483.762c-.075.118-.184.298-.242.4l-.107.185l-.054-.014c-.13-.035-1.049-.36-1.291-.456a8.54 8.54 0 0 1-.846-.389c-.289-.156-.655-.388-.627-.397l1.105-.302c1.592-.434 2.473-.683 3.05-.864c.109-.033.199-.059.2-.057zm4.523 1.061h.006c.015.038-.575 1.67-.79 2.188c-.049.116-.066.145-.092.143a55.54 55.54 0 0 1-1.433-.2c-.906-.138-2.423-.403-2.806-.49l-.089-.02l.543-.122c1.164-.262 1.723-.403 2.29-.577a16.544 16.544 0 0 0 2.138-.824a2.3 2.3 0 0 1 .233-.098z" fill="#626262"/><rect x="0" y="0" width="24" height="24" fill="rgba(0, 0, 0, 0)" /></svg>            </div>
             <h3 class="font-weight-bold">
@@ -459,7 +366,7 @@
             </p>
           </div>
 
-          <div class="col-12 col-md-6 col-lg-4 text-center" data-aos="fade-up">
+          <div class="col-12 col-md-6 col-lg-4 text-center">
             <div class="icon icon-lg mb-4">
               <svg width="432.071pt" height="445.383pt" viewBox="0 0 432.071 445.383" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
               <g id="orginal" style="fill-rule:nonzero;clip-rule:nonzero;stroke:#000000;stroke-miterlimit:4;">
@@ -487,7 +394,7 @@
             </p>
           </div>
 
-          <div class="col-12 col-md-6 col-lg-4 text-center" data-aos="fade-up">
+          <div class="col-12 col-md-6 col-lg-4 text-center">
             <div class="icon icon-lg mb-4">
               <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1280 1280" style="enable-background:new 0 0 1280 1280;" xml:space="preserve">
               <style type="text/css">
@@ -513,7 +420,6 @@
       </div> <!-- / .container -->
     </section>
 
-    <!-- CONSULTANCY -->
     <section id="consultancy" class="py-8 py-md-11 bg-gray-200">
       <div class="container">
         <div class="row justify-content-center">
@@ -529,10 +435,10 @@
 
         <div class="row">
           <div class="col-12 mb-4">
-            <div class="card shadow-light-lg overflow-hidden text-center text-lg-left" data-aos="fade-up">
-              <div class="row">
+            <div class="card shadow-light-lg overflow-hidden text-center text-lg-left">
+              <div id="consultancy_architecture" class="row">
                 <div class="col-md-4 position-relative">
-                  <img src="assets/img/undraw/software_engineer.svg" class="h-75 position-absolute right-0 mt-6" alt="...">
+                  <img src="assets/img/undraw/software_engineer.svg" class="h-75 position-absolute right-0 mt-6">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body py-7 py-md-9">
@@ -554,10 +460,10 @@
 
         <div class="row gx-4">
           <div class="col-12 col-lg-6 d-lg-flex mb-4">
-            <div class="card shadow-light-lg overflow-hidden" data-aos="fade-up">
-              <div class="row">
+            <div class="card shadow-light-lg overflow-hidden">
+              <div id="consultancy_code_reviews"  class="row">
                 <div class="col-md-4 position-relative">
-                 <img src="assets/img/undraw/code_review.svg" class="h-50 position-absolute right-0 mt-7 mr-n4" alt="...">
+                 <img src="assets/img/undraw/code_review.svg" class="h-50 position-absolute right-0 mt-7 mr-n4">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body py-7 py-md-9 text-center">
@@ -576,8 +482,8 @@
             </div>
           </div>
           <div class="col-12 col-lg-6 d-lg-flex mb-4">
-            <div class="card shadow-light-lg overflow-hidden text-center" data-aos="fade-up">
-              <div class="row">
+            <div class="card shadow-light-lg overflow-hidden text-center">
+              <div id="consultancy_cicd" class="row">
                 <div class="col-md-8">
                   <div class="card-body py-7 py-md-9">
                     <h4 class="font-weight-bold">
@@ -592,7 +498,7 @@
                   </div>
                 </div>
                 <div class="col-md-4">
-                  <img src="assets/img/undraw/server_push.svg" class="h-50 position-absolute left-0 mt-7" alt="...">
+                  <img src="assets/img/undraw/server_push.svg" class="h-50 position-absolute left-0 mt-7">
                 </div>
               </div> <!-- / .row -->
             </div>
@@ -601,10 +507,10 @@
 
         <div class="row gx-4">
           <div class="col-12 col-lg-6 d-lg-flex mb-4">
-            <div class="card shadow-light-lg overflow-hidden" data-aos="fade-up">
-              <div class="row">
+            <div class="card shadow-light-lg overflow-hidden">
+              <div id="consultancy_appsec" class="row">
                 <div class="col-md-4 position-relative">
-                 <img src="assets/img/undraw/security_on.svg" class="h-50 position-absolute right-0 mt-7 mr-n4" alt="...">
+                 <img src="assets/img/undraw/security_on.svg" class="h-50 position-absolute right-0 mt-7 mr-n4">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body py-7 py-md-9 text-center">
@@ -620,8 +526,8 @@
             </div>
           </div>
           <div class="col-12 col-lg-6 d-lg-flex mb-4">
-            <div class="card shadow-light-lg overflow-hidden text-center" data-aos="fade-up">
-              <div class="row">
+            <div class="card shadow-light-lg overflow-hidden text-center">
+              <div id="consultancy_tuning" class="row">
                 <div class="col-md-8">
                   <div class="card-body py-7 py-md-9">
                     <h4 class="font-weight-bold">
@@ -636,7 +542,7 @@
                   </div>
                 </div>
                 <div class="col-md-4">
-                  <img src="assets/img/undraw/fast_loading.svg" class="h-50 position-absolute left-0 mt-7" alt="...">
+                  <img src="assets/img/undraw/fast_loading.svg" class="h-50 position-absolute left-0 mt-7">
                 </div>
               </div> <!-- / .row -->
             </div>
@@ -666,17 +572,15 @@
       </div> <!-- / .container -->
     </section>
 
-    <!-- FOOTER -->
     <footer class="py-8 py-md-11 bg-white">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-4 col-lg-3">
-    
-            <!-- Brand -->
             <img src="./assets/img/brand.svg" class="footer-brand img-fluid mb-2">
+            <p class="text-gray-700 mb-2">
+              Software Reflections Ltd
+            </p>
     
-    
-            <!-- Social -->
             <ul class="list-unstyled list-inline list-social mb-6 mb-md-0">
               <li class="list-inline-item list-social-item mr-3">
                 <a href="https://www.linkedin.com/company/software-reflections" target="_blank" rel="noopener" class="text-decoration-none">
@@ -717,6 +621,16 @@
     
             <ul class="list-unstyled text-muted mb-0">
               <li class="mb-3">
+                <a href="./about.html" class="text-reset">
+                  About
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="./clients.html" class="text-reset">
+                  Clients
+                </a>
+              </li>
+              <li class="mb-3">
                 <a href="./about.html#location" class="text-reset">
                   Registration
                 </a>
@@ -743,11 +657,8 @@
       </div> <!-- / .container -->
     </footer>
 
-    <!-- JAVASCRIPT -->
-    <!-- Vendor JS -->
     <script src="./assets/js/vendor.bundle.js"></script>
     
-    <!-- Theme JS -->
     <script src="./assets/js/theme.bundle.js"></script>
 
   </body>
